@@ -29,3 +29,8 @@ int main()
     scanf("%s", &city);
     printf("There are many %s ways to choose a/an %s to read. First, you could ask for recommendations from your friends and %s. Just don't ask Aunt %s ---she only reads %s books with %s -ripping goodness on the cover. If your friends and family are no help, try checking out the %s review in The %s Times.", adj , noun , pnoun , female , adj1 , cloth , noun1 , city );
 }
+
+
+/* Output
+There are many Idk ways to choose a/an Ikd to read. First, you could ask for recommendations from your friends and Idk. Just don't ask Aunt idk ---she only reads Idk books with idk -ripping goodness on the cover. If your friends and family are no help, try checking out the idk review in The idk Times.
+*/
