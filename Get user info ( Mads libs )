@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char adj[10];
+    char noun[10];
+    char pnoun[10];
+    char female[10];
+    char adj1[10];
+    char cloth[10];
+    char noun1[10];
+    char city[10];
+    printf("Enter an Adjective : ");
+    scanf("%s", &adj);
+    printf("Enter a Noun : ");
+    scanf("%s", &noun);
+    printf("Enter a Plural Noun : ");
+    scanf("%s", &pnoun);
+    printf("Enter a Female Name : ");
+    scanf("%s", &female);
+    printf("Enter an Adjective : ");
+    scanf("%s", &adj1);
+    printf("Enter a Clothing Article : ");
+    scanf("%s", &cloth);
+    printf("Enter a Noun : ");
+    scanf("%s", &noun1);
+    printf("Enter a City Name : ");
+    scanf("%s", &city);
+    printf("There are many %s ways to choose a/an %s to read. First, you could ask for recommendations from your friends and %s. Just don't ask Aunt %s ---she only reads %s books with %s -ripping goodness on the cover. If your friends and family are no help, try checking out the %s review in The %s Times.", adj , noun , pnoun , female , adj1 , cloth , noun1 , city );
+}
